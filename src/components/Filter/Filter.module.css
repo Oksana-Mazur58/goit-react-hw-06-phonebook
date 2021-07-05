@@ -1,0 +1,8 @@
+.Filter__aria{
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+.Filter__input{
+   margin-top: 20px;
+}
