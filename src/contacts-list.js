@@ -6,4 +6,4 @@ const contacts = [{ id: uuidv4(), name: 'Rosie Simpson', number: '459-12-56' },
 { id: uuidv4(), name: 'Annie Copeland', number: '227-91-26' }
 ];
 
-export default contacts
+export default  contacts
