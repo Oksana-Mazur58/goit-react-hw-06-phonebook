@@ -25,10 +25,13 @@ class ContactForm extends Component {
     }
     handleSubmit = e => {
         e.preventDefault();
-        console.log(this.state)
-        this.props.onSubmit(this.state.name, this.state.number)
-
-        this.reset()
+        const { name, number }= this.state
+        // if (name !== '' && number !== '') {
+        this.props.onSubmit(name, number)
+        this.reset()  
+        // }
+        // alert ('Please add name and phone number')
+        
 
     }
 

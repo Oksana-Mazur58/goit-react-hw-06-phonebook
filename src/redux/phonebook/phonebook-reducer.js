@@ -15,7 +15,7 @@ import contacts from "../../contacts-list";
 // ];
 
 const items = createReducer(contacts, {
-  [actions.addContact]: (state, { payload }) => {
+  [actions.addContacts]: (state, { payload }) => {
     if (state.map(({ name }) => name).includes(payload.name)) {
       return alert(`${payload.name} is already in contacts`);
     } 
